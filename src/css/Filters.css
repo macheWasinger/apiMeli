@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container-Filters {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    position: relative;
+    bottom: 20px;
+    z-index: 10 !important;
+}
+
+.buttons-option-container{
+    width: 145px;
+    height: auto;
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    top: 52px;
+    right: -22px;
+}
+
+.show__buttons-option-container {
+    display: flex !important;
+}
+
+.hide__buttons-option-container {
+    display: none !important;
+}
+
+.buttons-option-container button {
+    background-color: #fff;
+    padding-right: 30px !important;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #d0d0d0;
+    z-index: 10 !important;
+}
+
+.buttons-option-container button:hover {
+    background-color: #ededed !important;
+}
+
+.fa-angle-down {
+    font-size: 13px;
+    margin-top: 4px;
+    transition: all 0.3s;
+}
+
+.girarArrow {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.backPositionArrow {
+    transform: rotate(0);
+}
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+.fondoBlancoRelevante {
+    background-color: #fff !important;
+}
+
+.fondoGris {
+    background-color: #ededed !important;
+}
+
+
+.border-relevant, .border-lower, .border-higher {
+    border-left: 0.35em solid #007BFF !important;
+}
+
+.relevante-borde:hover::before,
+.lower-borde:hover::before,
+.higher-borde:hover::before {
+    content: "";
+    position: absolute;
+    padding: 21px;
+    left: 0;
+    border-left: 0.35em solid #007BFF;
+    opacity: 0.4;
+}
+
+.relevante-borde:hover::before {
+    top: 0;
+}
+
+.lower-borde:hover::before {
+    top: calc(50% - 21px);
+}
+
+.higher-borde:hover::before {
+    bottom: 0;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .main-container-Filters {
+        margin: auto;
+    }
+
+    .text-ordenar__select p {
+        margin-left: 5px !important;
+    }
+}

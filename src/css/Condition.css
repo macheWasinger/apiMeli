@@ -1,0 +1,31 @@
+.container-condition {
+    margin-right: 10vw;
+    margin-top: 100px;
+}
+
+.container-condition button {
+    border: none;
+    background-color: #ededed;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.container-condition section .lead {
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+
+.text-condition {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.25;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .container-condition {
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+    }
+}

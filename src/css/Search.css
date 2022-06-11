@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.title-APImeli {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.15vw;
+    text-shadow: 0.1vw 0.15vw 0.2vw #000;
+    padding: 1vw;
+    margin-bottom: 0 !important;
+}
+
+.section-formulario {
+    width: 100%;
+    background-color: #FFF159;
+}
+
+.section-formulario form {
+    width: 90%;
+}
+
+.section-formulario form input {
+    width: 40%;
+    height: 39px;
+    margin-left: 1.5vw;
+}
+
+.section-formulario form input,
+.section-formulario form button {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2) !important;
+    border: none !important;
+}
+
+.section-formulario form button {
+    width: 3em;
+    height: 39px;
+    background-color: #fff;
+    outline:none !important;
+    outline-width: 0 !important;
+}
+
+.section-formulario form:focus,
+ select:focus, select, 
+ .section-formulario form input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+}
+
+
+::placeholder {
+    color: rgb(184, 184, 184) !important;
+    opacity: .45 !important;
+}
+
+.button-search {
+    display: grid;
+    place-items: center;
+}
+
+.fa-magnifying-glass {
+    font-size: 17px;
+    opacity: .45;
+    position: absolute;
+    padding: 4px;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    border-left: 1px solid rgba(0, 0, 0, .3);
+}
+
+.container__condition-section-producto {
+    width: auto;
+    display: flex !important;
+    justify-content: center;
+    margin: auto;
+}
+
+.section-producto {
+    width: 53% !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-producto ul {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding-left: 0;
+}
+
+.container-product {
+    display: flex;
+    align-items: center;
+}
+
+.container-imgProducto {
+    width: 160px;
+    height: 160px;
+}
+
+.container-imgProducto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container_info-product {
+    width: 40vw;
+    height: auto;
+    margin-left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title-product h2 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    -webkit-line-clamp: 2;
+    
+    font-size: 20px;
+    color: #333;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.container_info-product a {
+    color: #3483fa;
+    text-decoration: none;
+}
+
+.container_info-product a:hover {
+    color: blue;
+}
+
+.price-product {
+    font-size: 24px;
+    line-height: 1.25;
+    position: relative;
+    top: 0.4vw;
+    margin-top: 0.5vw;
+}
+
+.cuotasProducto, .envio-producto {
+    color: #00a650;
+}
+
+.cuotasProducto, .envio-producto {
+    font-size: 14px;
+}
+
+.cuotasProducto {
+    font-weight: 400;
+}
+
+.container-envio-condicion {
+    width: auto;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.envio-producto {
+    font-weight: 600;
+}
+
+.product-condition {
+    color: #666;
+    font-size: 14px;
+    margin-top: -0.8vw !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .title-APImeli {
+        width: 120px;
+        font-size: 20px;
+    }
+
+    .section-formulario {
+        height: 50px;
+    }
+    
+    .section-formulario form {
+        width: 90%;
+    }
+
+    .section-formulario form input {
+        width: 60%;
+        height: 35px;
+        text-overflow: ellipsis;
+        overflow: hidden !important;
+    }
+
+    .section-formulario form input,
+    .section-formulario form button {
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2) !important;
+        border: none !important;
+    }
+
+    .section-formulario form button {
+        width: 3em;
+        height: 35px;
+    }
+
+    ::placeholder {
+        width: 100%;
+        overflow: hidden !important;
+    }
+
+    .fa-magnifying-glass {
+        padding: 4px;
+    }
+    
+    .fa-magnifying-glass {
+        opacity: .55;
+    }
+
+    .container__condition-section-producto {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .container-filtrosCondicion {
+        display: flex !important;
+        justify-content: space-around;
+        margin-right: 4.5vw;
+        margin-top: 5vw;
+    }
+
+    .section-producto {
+        width: 90% !important;
+        margin-top: 3vw !important;
+        margin-left: 5vw !important;
+    }   
+   
+     
+    .container_info-product {
+        width: 45vw;
+    }
+    
+    .title-product h2 {
+        font-size: 15px;
+    }
+    
+    .price-product {
+        font-size: 19px;
+    }
+    
+    .cuotasProducto, .envio-producto {
+        font-size: 12px;
+    }
+    
+    
+    .product-condition {
+        font-size: 12px;
+    }
+}

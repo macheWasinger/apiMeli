@@ -1,0 +1,44 @@
+.costoEnvio {
+    margin-right: 10vw;
+    margin-top: 40px;
+}
+
+.costoEnvio button {
+    border: none;
+    background-color: #ededed;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.costoEnvio .container-botones-enviarCantidad .lead {
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+
+.costoEnvio > h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.25;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .costoEnvio {
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .costoEnvio button {
+        font-size: 12px;
+    }
+    
+    .costoEnvio .container-botones-enviarCantidad .lead {
+        font-size: 12px;
+    }
+    
+    .costoEnvio > h4 {
+        font-size: 14px;
+    }
+}
