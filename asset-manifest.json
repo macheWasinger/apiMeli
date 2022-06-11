@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apiMeli/static/css/main.02a01ec4.css",
+    "main.js": "/apiMeli/static/js/main.ee6681db.js",
+    "index.html": "/apiMeli/index.html",
+    "main.02a01ec4.css.map": "/apiMeli/static/css/main.02a01ec4.css.map",
+    "main.ee6681db.js.map": "/apiMeli/static/js/main.ee6681db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a01ec4.css",
+    "static/js/main.ee6681db.js"
+  ]
+}
